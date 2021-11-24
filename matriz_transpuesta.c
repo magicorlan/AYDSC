@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+void imprimir_arreglo(int a[]);
+
+
 int main(){
 	int mx[2][3] = {
 	                 {2, 3, 4},
@@ -20,9 +23,30 @@ int main(){
    		printf("\n");
 	}
 	
+}
+
+
+
+void imprimir_arreglo(int a[]){
+		int i;
+		int longitud = sizeof(a)/sizeof(a[0]);
+		
+		for(i=0; i<=longitud-1; i++)
+			 printf("%d  ",a[i]);
+}
 	
 
-	
-	
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
