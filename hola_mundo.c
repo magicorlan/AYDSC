@@ -4,7 +4,7 @@
 int f(int a);
 int f2(int a, int b);
 void imprime_arreglo(int a[]);
-
+void funcion_rama2();
 
 # programa principal
 int main(){
@@ -40,6 +40,11 @@ void imprime_arreglo(int a[]){
         printf(“ %d ”,a[i]);
 }
 
+
+
+void funcion_rama2(){
+	printf("\nEsta es la funcion rama2");
+}
 
 
 
