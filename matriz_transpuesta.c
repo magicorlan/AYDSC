@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void imprimir_arreglo(int a[]);
+int num_elementos_arreglo(int a[]);
 
 
 int main(){
@@ -25,6 +26,11 @@ int main(){
 	
 }
 
+
+int num_elementos_arreglo(int a[]){
+		int longitud = sizeof(a)/sizeof(a[0]);
+		return longitud;
+}
 
 
 void imprimir_arreglo(int a[]){
