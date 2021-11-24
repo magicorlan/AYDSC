@@ -15,6 +15,9 @@ int main(){
 		i++;
 	}
 	
+	printf("****************");
+	
+	
 	for(i=0; i < 10; i++){
 			printf("\nhola");
 	}
