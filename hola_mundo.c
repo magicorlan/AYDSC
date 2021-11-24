@@ -5,11 +5,6 @@ int f(int a);
 int f2(int a, int b);
 void imprime_arreglo(int a[]);
 
-#funcion de la rama2
-void funcion_rama2(){
-	printf
-}
-
 
 # programa principal
 int main(){
@@ -47,6 +42,4 @@ void imprime_arreglo(int a[]){
 
 
 
-void funcion_rama2(){
-	printf("esta funcion es de la rama 2");
-}
+
