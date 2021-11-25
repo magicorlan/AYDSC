@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <math.h>
 
 void imprimir_arreglo(int a[]);
 int num_elementos_arreglo(int a[]);
-
+int potencia(int a, int potencia);
 
 int main(){
 	int mx[2][3] = {
@@ -31,6 +32,13 @@ int num_elementos_arreglo(int a[]){
 		int longitud = sizeof(a)/sizeof(a[0]);
 		return longitud;
 }
+
+
+int potencia(int a, int potencia){
+	return pow(a,potencia);
+}
+
+
 
 
 void imprimir_arreglo(int a[]){
