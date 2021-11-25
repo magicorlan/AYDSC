@@ -2,6 +2,7 @@
 
 void imprimir_arreglo(int a[]);
 int num_elementos_arreglo(int a[]);
+int potencia(int a, int exp);
 
 
 int main(){
@@ -32,6 +33,16 @@ int num_elementos_arreglo(int a[]){
 		return longitud;
 }
 
+
+int potencia(int a, int exp){
+	int p = 1, i;
+	
+	for(i = 1; i <= exp; i++){
+		p *= p;
+	}
+	
+	return p;
+}
 
 void imprimir_arreglo(int a[]){
 		int i;
