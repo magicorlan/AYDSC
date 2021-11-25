@@ -3,7 +3,8 @@
 
 void imprimir_arreglo(int a[]);
 int num_elementos_arreglo(int a[]);
-int potencia(int a, int potencia);
+int potencia(int a, int exp);
+
 
 int main(){
 	int mx[2][3] = {
@@ -34,11 +35,10 @@ int num_elementos_arreglo(int a[]){
 }
 
 
-int potencia(int a, int potencia){
-	return pow(a,potencia);
+
+int potencia(int a, int exp){
+	return pow(a,exp);
 }
-
-
 
 
 void imprimir_arreglo(int a[]){
